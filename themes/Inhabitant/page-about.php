@@ -3,7 +3,7 @@
 <?php if( have_posts() ) :
 //The Wordpress Loop: Loads poat content
     while( have_posts() ) :
-        echo '<i class="fab fa-android"></i>';
+        echo 'About page';
         the_post(); ?>
         
 
